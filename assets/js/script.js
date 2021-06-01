@@ -97,7 +97,7 @@ $(function() {
             Username : "frmendez209@gmail.com",
             Password : "582880BD215217284AA10FDD2C1BB1E80324",
             To : 'frmendez209@gmail.com',
-            From : $email,
+            From : 'frmendez209@gmail.com',
             Subject : `Contact Request From: ${$name}`,
             Body : $message
         }).then(
