@@ -87,6 +87,7 @@ $(function() {
     });
 
     $('#submit').on('click', e => {
+        e.preventDefault();
         let $name = $('#name').val();
         let $email = $('#email').val();
         let $message = $('#message').val();
