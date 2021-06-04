@@ -93,28 +93,4 @@ $(function() {
     $('.portfolio-item').on('mouseleave', e => {
         e.currentTarget.childNodes[1].pause();
     });
-
-
-    $('#submit').on('click', e => {
-        e.preventDefault();
-        let $name = $('#name').val();
-        let $email = $('#email').val();
-        let $message = $('#message').val();
-
-        Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "frmendez209@gmail.com",
-            Password : "582880BD215217284AA10FDD2C1BB1E80324",
-            To : 'frmendez209@gmail.com',
-            From : 'frmendez209@gmail.com',
-            Subject : `Contact Request From: ${$name}`,
-            Body : $message
-        }).then(
-        message => alert(message)
-        );
-
-
-    })
-
-    
 });
