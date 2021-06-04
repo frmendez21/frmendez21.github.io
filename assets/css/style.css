@@ -392,7 +392,10 @@ html, body {
 .portfolio-item:hover:before{
     background-color: rgba(33,33,33,0.6);
 }
-
+#portfolio-video {
+    height: 100%;
+    width: 100%;
+}
 .portfolio-item-info {
     position: absolute;
     top: 150px;
@@ -575,4 +578,9 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+#counter {
+    position: relative;
+    left: 35%;
 }
