@@ -79,11 +79,4 @@ $(function() {
             }
     });
 
-    $('.portfolio-item').on('mouseenter', e => {
-        e.currentTarget.childNodes[1].play();
-    });
-
-    $('.portfolio-item').on('mouseleave', e => {
-        e.currentTarget.childNodes[1].pause();
-    });
 });
