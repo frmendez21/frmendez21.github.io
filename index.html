@@ -84,7 +84,7 @@
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                         <p>Hello, my name is Frank Mendez and I am a full-stack developer with experience in Ruby, Javascript, Rails, React/Redux, PostgreSQL, MongoDb, Express, and much more! Throughout my journey as a software developer, I have gained a passion for technology that is unlike anything I've ever experienced before. My projects reflect that passion as I meticulously worked on them to be able to deploy applications that are beautiful, fast, and responsive. I am always looking for opportunities to delve into new languages, frameworks and concepts.  </p>
-                        <a href="https://docs.google.com/document/d/128sjAvttm-YZrsXw3PRmLv4YSnJTSXzUoX_dLTzulIs/edit?usp=sharing" class="btn btn-fill" target="_blank" download>Resume</a>
+                        <a href="/assets/resume.docx" class="btn btn-fill" target="_blank" download>Resume</a>
                     </div>
                 </div>
             </div>
@@ -194,30 +194,30 @@
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img id="portfolio-video"src="assets/img/mytube.png" alt="">
+                            <img id="portfolio-img"src="assets/img/mytube.png" alt="">
                             <div class="portfolio-item-info">
                                 <h4>MyTube</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" class="project-link" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://github.com/frmendez21/MyTube" target="_blank"><i class="fab fa-github"></i></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img id="portfolio-video" src="assets/img/excite.png">
+                            <img id="portfolio-img" src="assets/img/excite.png">
                             <div class="portfolio-item-info">
                                 <h4>Excite</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" class="project-link" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://github.com/LamarP/Excite" target="_blank"><i class="fab fa-github"></i></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img id="portfolio-video"src="assets/img/rocketgoal.png" alt="">
+                            <img id="portfolio-img"src="assets/img/rocketgoal.png" alt="">
                             <div class="portfolio-item-info">
                                 <h4>Rocket Goal</h4>
-                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#" class="project-link" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="https://github.com/frmendez21/RocketGoal" target="_blank"><i class="fab fa-github"></i></span></a>
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
@@ -302,7 +302,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <video id="portfolio-video" autoplay loop>
+            <video class="portfolio-video" id="1" loop>
                 <source src="assets/video/mytube-demo.mov">
             </video>
           </div>
@@ -321,8 +321,8 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <video id="portfolio-video" autoplay loop>
-                <source src="assets/video/excite-demo.mov">
+            <video class="portfolio-video" id='2' loop>
+                <source src="assets/video/excite-demo.mov" >
             </video>
           </div>
           <div class="modal-body">
@@ -340,7 +340,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <video id="portfolio-video" autoplay loop>
+            <video class="portfolio-video" id="3" loop>
                 <source src="assets/video/rocketgoal-demo.mov">
             </video>
           </div>

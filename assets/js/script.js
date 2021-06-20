@@ -79,4 +79,12 @@ $(function() {
             }
     });
 
+    $('.project-link').on('click', e => {
+        const link  = e.currentTarget;
+        let data = $(link).attr('data-target');
+        let id = data[data.length - 1];
+        const video = $(`#${id}`);
+        video.trigger('play')
+    });
+
 });
